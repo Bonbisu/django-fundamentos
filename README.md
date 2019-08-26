@@ -129,4 +129,30 @@ def home(request):
 
 ### templates
 
-Devemos criar o diretório `[app]/templates/[app]/`.
+Devemos criar o diretório `[app]/templates/[app]/` e inserir arquivos HTML contendo os templates.
+
+## models
+
+Os dados são armazenados seguindo os models. Os models são classes extendidas de `models.Model`, que serão as tabelas, e os atributos são os campos a serem criados no banco de dados.
+
+### criando o banco
+
+Após definir o model, criamos o arquivo que irá gerar os comandos SQL e gerar a estrutura.
+```shell script
+python manage.py makemigrations
+```
+
+> o comando `makemigrations` verifica as alterações na pasta `models`  e gera um arquivo `migrations` dentro da pasta `migrations/`.
+
+Após criado o arquivo de migração, criamos as tabelas no banco usando os comandos:
+```shell script
+python manage.py migrate
+```
+
+### testando a migração
+
+Em `admin.py` adicionar as linhas:
+
+```python
+
+```

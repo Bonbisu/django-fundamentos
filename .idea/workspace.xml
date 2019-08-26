@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a55393db-ec9e-481b-9326-ece6a9851889" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controle_gastos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/controle_gastos/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controle_gastos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/controle_gastos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contas/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/contas/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contas/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -32,6 +38,7 @@
   <component name="ProjectId" id="1PvcRgVrbbxCstFc5DX0VPcpejN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -64,6 +71,7 @@
       <workItem from="1566758934411" duration="608000" />
       <workItem from="1566759647985" duration="853000" />
       <workItem from="1566771011068" duration="8632000" />
+      <workItem from="1566788917094" duration="2526000" />
     </task>
     <servers />
   </component>
